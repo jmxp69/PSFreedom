@@ -1,4 +1,5 @@
 EXTRA_CFLAGS = -I/usr/include
+# EXTRA_CFLAGS += -DENABLE_DEFAULT_BDEMU
 
 obj-m	:= psfreedom.o 
 
